@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+    <button>Button 1</button>
+    <button>Button 2</button>
+    <button th:if="${role == 'admin'}">Button 3</button>
+</body>
+</html>
